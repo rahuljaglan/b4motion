@@ -1,0 +1,48 @@
+.marg {
+  margin: 100px 0px 100px 0px;
+}
+.build__image {
+  padding: 0;
+  margin: 0;
+}
+
+.build {
+  padding-left: 138px;
+  padding-right: 1px;
+  padding-bottom: 15px;
+}
+.build > h2 {
+  font-size: 28px;
+  color: black;
+  margin-top: 34px;
+  line-height: 30px;
+  word-spacing: -3px;
+  font-weight: 600;
+}
+
+.build > h3 {
+  font-weight: 700;
+}
+
+.build__heading {
+  mix-blend-mode: difference;
+  filter: invert(1);
+  width: 152%;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 500px;
+  position: absolute;
+  color: black;
+  top: -15px;
+  left: 363px;
+  text-indent: 0px;
+  letter-spacing: -20px;
+  opacity: 1;
+  -webkit-transform: scale(1.4, 1);
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+-webkit-scrollbar {
+  display: none;
+}

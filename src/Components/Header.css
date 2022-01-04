@@ -1,0 +1,94 @@
+.header {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  width: 100%;
+  z-index: 5;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px;
+  align-items: center;
+  color: white;
+}
+
+.header__menu__action {
+  border: 10px;
+  padding: 10px 35px;
+  background: none;
+}
+.header__menu__action__text {
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.hoverr:hover {
+  text-decoration: underline;
+}
+
+.header__loop__link__text {
+  font-size: 18px;
+  border: 10px;
+  padding: 10px 80px;
+
+  background: none;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 168px;
+  display: inline-block;
+  z-index: 100;
+}
+
+.title {
+  position: absolute;
+  font-size: 12px;
+  bottom: 200px;
+  margin-bottom: 30px;
+  margin-left: 55px;
+  left: 200px;
+  width: 100%;
+  z-index: 5;
+  color: white;
+}
+
+.navigation {
+  position: absolute;
+  font-size: 25px;
+  right: 400px;
+  width: 220px;
+  bottom: -62px;
+  color: white;
+}
+.title > h1 {
+  font-size: 30px;
+}
+.title > h2 {
+  margin-right: 118px;
+  line-height: 1.5;
+}
+
+.footer__link {
+  position: absolute;
+  font-size: 20px;
+  bottom: 80px;
+  left: 120px;
+  width: 100%;
+  z-index: 5;
+  color: white;
+}
+.cookie {
+  position: fixed;
+  right: 50px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.cookie > img {
+  width: 30px;
+  height: 30px;
+}
